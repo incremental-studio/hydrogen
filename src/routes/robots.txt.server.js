@@ -18,21 +18,7 @@ function robotsTxtData({url}) {
 
   return `
 User-agent: *
-Disallow: /admin
-Disallow: /cart
-Disallow: /orders
-Disallow: /checkouts/
-Disallow: /checkout
-Disallow: /carts
-Disallow: /account
 ${sitemapUrl ? `Sitemap: ${sitemapUrl}` : ''}
-
-# Google adsbot ignores robots.txt unless specifically named!
-User-agent: adsbot-google
-Disallow: /checkouts/
-Disallow: /checkout
-Disallow: /carts
-Disallow: /orders
 
 User-agent: Pinterest
 Crawl-delay: 1
