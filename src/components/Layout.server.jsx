@@ -3,7 +3,7 @@ import Footer from './Footer.server';
 
 export default function Layout({children}) {
   return (
-    <div class="layout">
+    <div className="layout">
       <Header />
       <main>{children}</main>
       <Footer />
