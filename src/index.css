@@ -1,0 +1,47 @@
+body {
+  margin: 0;
+}
+
+.layout {
+  font-family: system-ui;
+  box-sizing: border-box;
+  padding: clamp(1em, 5vw, 5em);
+  min-height: 100vh;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  line-height: 1.5;
+}
+
+h1 {
+  color: inherit;
+  font-size: 1em;
+}
+
+h1 > a {
+  text-decoration: none;
+  color: inherit;
+}
+
+p {
+  max-width: 65ch;
+}
+
+footer {
+  opacity: 0.5;
+}
+
+@media (prefers-color-scheme: dark) {
+  body {
+    color: rgb(161, 184, 193);
+    background: rgb(33,33,33);
+  }
+  a {
+    color: rgb(129,169,254);
+  }
+  a:visited {
+    color: rgb(198,145,232);
+  }
+  h1 > a, h1 > a:visited {
+    color: rgb(161, 184, 193);
+  }
+}
