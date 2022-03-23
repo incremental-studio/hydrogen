@@ -11,7 +11,7 @@ export default function Project() {
         </a>
       ) : (
         <p>
-          Interested?
+          Interested?{` `}
           <a href={'https://twitter.com/benjaminsehl'} target="_blank">
             Let me know &rarr;
           </a>
