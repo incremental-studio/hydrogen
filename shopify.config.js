@@ -1,6 +1,6 @@
 export default {
   defaultLocale: 'en',
   storeDomain: 'bsehl.myshopify.com',
-  storefrontToken: 'd0c3bf71bdc27ea3f1236a2a9f248cac',
+  storefrontToken: '4c3b4f6549b5592e721cf90a8204c62c',
   storefrontApiVersion: 'unstable',
 };
