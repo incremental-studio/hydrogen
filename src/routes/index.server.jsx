@@ -31,13 +31,19 @@ export default function Index() {
         others may never see the light of day. My main goal is to learn by
         doing. I have the full intention of bringing each of these ideas to
         life, but I'm first prioritizing my family, and my day job at&nbsp;
-        <a href="https://shopify.dev/hydrogen">Shopify</a>.
+        <a target="_blank" href="https://shopify.dev/hydrogen">
+          Shopify
+        </a>
+        .
       </p>
       <p>
         I’m also thinking about writing a blog, where I’d post about the things
         I’m learning and resources I’ve found most helpful. If you think that
         would be interesting, please{' '}
-        <a href="https://twitter.com/benjaminsehl">let&nbsp;me&nbsp;know</a>.
+        <a target="_blank" href="https://twitter.com/benjaminsehl">
+          let&nbsp;me&nbsp;know
+        </a>
+        .
       </p>
       <p>
         I’m always excited by new ideas, but am already strapped for time. If

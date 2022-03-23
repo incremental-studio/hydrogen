@@ -10,9 +10,12 @@ export default function Project() {
           Visit &rarr;
         </a>
       ) : (
-        <a href={'https://twitter.com/benjaminsehl'} target="_blank">
-          Interested? Let me know &rarr;
-        </a>
+        <p>
+          Interested?
+          <a href={'https://twitter.com/benjaminsehl'} target="_blank">
+            Let me know &rarr;
+          </a>
+        </p>
       )}
     </Layout>
   );
