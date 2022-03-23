@@ -1,7 +1,7 @@
 {
   "name": "incremental",
-  "description": "This the default template for Hydrogen",
-  "version": "0.0.0",
+  "description": "This is the website for Incremental Studio",
+  "version": "0.0.1",
   "license": "MIT",
   "private": true,
   "scripts": {
@@ -22,7 +22,6 @@
   "devDependencies": {
     "@shopify/prettier-config": "^1.1.2",
     "@shopify/stylelint-plugin": "^10.0.1",
-    "@tailwindcss/typography": "^0.5.2",
     "autoprefixer": "^10.4.2",
     "cross-env": "^7.0.3",
     "eslint": "^7.31.0",
@@ -32,7 +31,6 @@
     "postcss": "^8.4.5",
     "prettier": "^2.3.2",
     "stylelint": "^13.13.0",
-    "tailwindcss": "^3.0.0",
     "vite": "^2.8.0",
     "vitest": "^0.5.9"
   },

@@ -1,3 +1,4 @@
+import {Link} from '@shopify/hydrogen';
 import Layout from '../components/Layout.server';
 
 export default function Index() {
@@ -10,18 +11,18 @@ export default function Index() {
       <p>Particular projects in development include:</p>
       <ul>
         <li>
-          <a href="https://margin.global">Margin</a>: A contemporary care
-          company
+          <Link to="/projects/margin">Margin</Link>: A contemporary care company
         </li>
         <li>
-          <a href="https://dossier.cv">Dossier</a>: A personal web page builder
+          <Link to="/projects/dossier">Dossier</Link>: A personal web page
+          builder
         </li>
         <li>
-          <a href="https://bento.land">Bento</a>: A personal productivity tool
+          <Link to="/projects/bento">Bento</Link>: A personal productivity tool
           and dashboard
         </li>
         <li>
-          <a href="https://officehours.ooo">Office Hours</a>: A calendar
+          <Link to="/projects/office-hours">Office Hours</Link>: A calendar
           scheduling service
         </li>
       </ul>
