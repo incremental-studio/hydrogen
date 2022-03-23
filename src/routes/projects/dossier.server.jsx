@@ -5,9 +5,13 @@ export default function Project() {
     <Layout>
       <h2>{content.title}</h2>
       <p>{content.description}</p>
-      {content?.link && (
+      {content?.link ? (
         <a href={content.link} target="_blank">
           Visit &rarr;
+        </a>
+      ) : (
+        <a href={'https://twitter.com/benjaminsehl'} target="_blank">
+          Interested? Let me know &rarr;
         </a>
       )}
     </Layout>
@@ -17,6 +21,5 @@ export default function Project() {
 const content = {
   title: 'Dossier',
   description:
-    'I find link-in-bio tools and website builders unecessarily complex. I feel like, when it comes to personal websites, it should be as simple as writing a Google Doc. Theming is usually pretty inelegant and requires a lot of manual tweaking … at least for me, if it’s not dead simple, I’d rather just write code.',
-  link: `https://dossier.cv`,
+    'I find link-in-bio tools and website builders unecessarily complex. I feel like, when it comes to personal websites, it should be as simple as writing a Google Doc. Theming is usually pretty inelegant and requires a lot of manual tweaking … at least for me, if it’s not dead simple, I’d rather just write code.'
 };

@@ -5,9 +5,13 @@ export default function Project() {
     <Layout>
       <h2>{content.title}</h2>
       <p>{content.description}</p>
-      {content?.link && (
+      {content?.link ? (
         <a href={content.link} target="_blank">
           Visit &rarr;
+        </a>
+      ) : (
+        <a href={'https://twitter.com/benjaminsehl'} target="_blank">
+          Interested? Let me know &rarr;
         </a>
       )}
     </Layout>
