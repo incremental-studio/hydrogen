@@ -1,11 +1,22 @@
 import Layout from '../../components/Layout.server';
 
-export default function Margin() {
+export default function Project() {
   return (
     <Layout>
-      <h2>Margin</h2>
-      <p>A contemporary care company, we’re focused on quality and design above all else.</p>
-      <a href="https://margin.global" target="_blank">Visit &rarr;</a>
+      <h2>{content.title}</h2>
+      <p>{content.description}</p>
+      {content?.link && (
+        <a href={content.link} target="_blank">
+          Visit &rarr;
+        </a>
+      )}
     </Layout>
   );
 }
+
+const content = {
+  title: 'Margin',
+  description:
+    'A contemporary care company, we’re focused on quality and design above all else.',
+  link: `https://margin.global`,
+};

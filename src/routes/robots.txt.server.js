@@ -14,11 +14,8 @@ export default function RobotsTxt({request, response}) {
 }
 
 function robotsTxtData({url}) {
-  const sitemapUrl = url ? `${url}/sitemap.xml` : undefined;
-
   return `
 User-agent: *
-${sitemapUrl ? `Sitemap: ${sitemapUrl}` : ''}
 
 User-agent: Pinterest
 Crawl-delay: 1
