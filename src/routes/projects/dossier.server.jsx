@@ -1,25 +1,14 @@
 import Layout from '../../components/Layout.server';
+import ProjectContent from '../../components/ProjectContent.server';
 
 export default function Project() {
   return (
     <Layout>
-      <h2>{content.title}</h2>
-      <p>{content.description}</p>
-      {content?.link ? (
-        <a href={content.link} target="_blank">
-          Visit &rarr;
-        </a>
-      ) : (
-        <p>
-          Interested?
-          <a href={'https://twitter.com/benjaminsehl'} target="_blank">
-            Let me know &rarr;
-          </a>
-        </p>
-      )}
+      <ProjectContent content={content} />
     </Layout>
   );
 }
+
 
 const content = {
   title: 'Dossier',
