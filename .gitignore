@@ -78,3 +78,9 @@ jspm_packages/
 
 # Vite output
 dist
+
+# Wrangler config file
+wrangler.toml
+
+# OTHER
+.DS_Store
