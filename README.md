@@ -1,3 +1,8 @@
+# Incremental Studio
+
+Building a new website on Hydrogen for my side projects. Making it open source and keeping it minimal. Feel free to use as much or little as you like.
+
+---
 # Hydrogen App
 
 Hydrogen is a React framework and SDK that you can use to build fast and dynamic Shopify custom storefronts.
