@@ -38,7 +38,7 @@ jobs:
 
       - name: Set asset base URL
         shell: bash
-        run: echo "::set-output name=URL::https://cdn.shopify.com/oxygen/59315781688/6914104/${{ steps.deployment-id.outputs.ID }}/"
+        run: echo "::set-output name=URL::https://cdn.shopify.com/oxygen/59315781688/6946872/${{ steps.deployment-id.outputs.ID }}/"
         id: base-url
 
       - name: Production build
